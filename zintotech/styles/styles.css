@@ -26,7 +26,7 @@ nav{
 main{
     width: auto;
 }
-main.home-grid{
+.home-grid{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 50px;
@@ -36,39 +36,41 @@ main.home-grid{
     font-size: 22px;
 }
 
-section.background{
+.background{
     grid-column: 1/4;
     grid-row: 1/4;
+    
 }
 
-section.sect1{
+.sect1{
     grid-column: 4/5;
     grid-row: 1/2;
    
 }
-section.sect2{
+.sect2{
     grid-column: 4/5;
     grid-row: 2/3;
 }
-section.sect3{
+.sect3{
     grid-column: 4/5;
     grid-row: 3/4;
 }
-section.message1{
+.message1{
     grid-column: 5/7;
     grid-row: 1/2;
     margin-right: 30px;
 }
-section.messsage2{
+.message2{
     grid-column: 5/7;
     grid-row: 2/3;
     margin-right: 30px;
 }
-section.message3{
+.message3{
     grid-column: 5/7;
     grid-row: 3/4;
     margin-right: 30px;
 }
+
 .hero-box{
     grid-column: 1/7;
     grid-row: 4/5;
@@ -112,13 +114,13 @@ section.message3{
     height: 450px;
 }
 .sect1 img{
-    height: 250px;
+    height: 200px;
     width: 100%;
 }
-sect2 img{
-    height: 250px;
+.sect2 img{
+    height: 230px;
 }
-sect3 img{
+.sect3 img{
     height: 250px;
 }
 .hero-box img{
